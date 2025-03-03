@@ -1,13 +1,18 @@
 
 
 import './App.css'
+import Data from './Components/Data/Data'
+import Hero from './Components/Hero/Hero'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
   
 
   return (
     <>
-      <h1>kkklkl</h1>
+    <Navbar/>
+      <Hero/>
+      <Data/>
     </>
   )
 }
