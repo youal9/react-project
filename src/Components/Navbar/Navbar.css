@@ -3,7 +3,9 @@
     height: auto;
     z-index: 10;
     position: fixed;
-    margin-top: 20px;
+   
+    background-color: rgba(33, 37, 37, 0.998);
+   
 
 }
 
