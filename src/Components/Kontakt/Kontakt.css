@@ -1,0 +1,42 @@
+.kontakt {
+    width: 100%;
+    min-height: 100vh;
+   
+    justify-content: center;
+    align-items: flex-start; /* Justera för att sätta innehållet högst upp */
+    padding: 50px 20px;
+}
+.kontakt-content{
+    text-align: center;
+}
+
+.kontakt-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.kontaktinfo{
+   width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+@media screen and (max-width:940px){
+    .kontakt {
+        width: 100%;
+       
+    }
+    
+    .kontakt-container{
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .map{
+        width: 50%;
+    }
+}
