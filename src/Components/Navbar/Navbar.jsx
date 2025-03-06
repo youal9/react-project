@@ -16,15 +16,15 @@ function Navbar() {
     
     <div className='navbar'>
         <div className="nav-container">
-            <div className="logo">
+            <Link to="hero"smooth={true}  duration={500} offset={-80} onClick={handleClick} className="logo">
                 <img src={logo} alt="" />
                 
-            </div>
+            </Link>
             <ul className={click ? 'nav-menu active':'nav-menu'}>
             <li><Link to="oss" smooth={true}  duration={500} offset={-80}  onClick={handleClick}>Om oss</Link></li>
             <li><Link to="data"smooth={true}  duration={500} offset={-80} onClick={handleClick}>Utbildning</Link></li>
-            <li><Link to="Pris">Pris</Link></li>
-            <li><Link to="Kontakt">Contact</Link></li>
+            <li><Link to="pris"smooth={true}  duration={500} offset={-80} onClick={handleClick}>pris</Link></li>
+            <li><Link to="kontakt"smooth={true}  duration={500} offset={-80} onClick={handleClick}>Kontakt</Link></li>
             
             </ul>
             <div className="hamburger" onClick={handleClick}>
