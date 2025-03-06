@@ -4,7 +4,7 @@
     z-index: 10;
     position: fixed;
    
-    background-color: rgba(33, 37, 37, 0.998);
+    background-color: rgba(0, 0, 0, 0.998);
    
 
 }
@@ -47,13 +47,14 @@
 .logo{
     cursor: pointer;
     display: flex;
+    margin-top: 10px;
     align-items: center;
   
  
 }
 
 .logo img {
-    width: 130px; 
+    width: 170px; 
 
 }
 
@@ -83,7 +84,7 @@
         left: -100%;
         justify-content: center;
         align-items: center;
-        background-color: rgba(0, 0, 0, 0.901);
+        background-color: rgb(0, 0, 0);
         transition: 0.5s ease-in;
     }
     .nav-container{
