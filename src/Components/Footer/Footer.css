@@ -53,6 +53,14 @@ h4{
     margin: 5px;
     max-height: 50px; /* Sätter en maxhöjd så att bilderna är i samma höjd */
 }
+@media screen and (min-width: 1400px){
+    .footer{
+      width: 100%;
+      min-height: 30vh;
+     
+     
+    }
+  }
 @media screen and (max-width: 940px) {
     .footer {
         flex-direction: column; 

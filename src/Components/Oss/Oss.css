@@ -43,8 +43,19 @@
     font-size: 1rem;
     line-height: 1.5;
 }
+
+
+@media screen and (min-width: 1400px) {
+    .oss {
+        padding-top: 9rem;
+        min-height: 90vh;
+      
+    }
+    
+}
 @media screen and (max-width: 940px) {
     .oss {
+
         width: 100%;
         height: auto;
         padding: 20px; /* Lite mer padding för bättre luft */
