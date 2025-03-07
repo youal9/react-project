@@ -24,6 +24,15 @@
     flex-direction: column;
     gap: 15px;
 }
+
+@media screen and (min-width: 1400px){
+    .kontakt{
+      width: 100%;
+      min-height: 60vh;
+      padding-top: 12rem;
+     
+    }
+  }
 @media screen and (max-width:940px){
     .kontakt {
         width: 100%;

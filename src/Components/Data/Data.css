@@ -1,6 +1,6 @@
 .data{
     width: 100%;
-    height: auto;
+    min-height: 100vh;
     text-align: center;
     padding-top: 90px;
 }
@@ -51,6 +51,15 @@
      text-align: center;
      z-index: 2;
   }
+  @media screen and (min-width: 1400px){
+    .data{
+      width: 100%;
+      min-height: 80vh;
+      padding-top: 9rem;
+     
+  }
+  }
+
   @media screen and (max-width:940px){
     .data{
       width: 100%;
