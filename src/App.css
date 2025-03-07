@@ -7,53 +7,14 @@
 ul{
   list-style-type: none;
 }
-a{
-  text-decoration: none;
-  color: white;
-}
-
-p{
-  font-size: 1.2rem;
-  line-height: 1.4;
+li{
+    list-style: none;
 }
 
 
 
 
-button{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: .7rem 1.5rem;
-  background-color: rgb(67, 123, 197);
-  border: 1px solid black;
-  color: white;
-  font-size: 1rem;
-  font-weight: 500;
-  display: flex;
-  border-radius: 7px;
-  cursor: pointer;
-  transition: 0.8s;
-  position: relative;
-  overflow: hidden;
-  
-  
-}
 
-button::before{
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 10%;
-  height: 0%;
-  background-color: #ffffff;
-  z-index: -1;
-  transition: 0.9s;
-  top: 0;
-  border-radius: 0 0 50% 50%;
-}
-button:hover{
-  color: rgb(0, 0, 0);
-  transform: scale(1.05);
-}
-button:hover::before {
-  height: 77%;
-}
+
+
+
