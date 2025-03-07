@@ -5,6 +5,11 @@
     background-position: center;
     background-size: cover;
    background-repeat: no-repeat;
+   display: flex;
+   align-items: center;  /* Centrerar vertikalt */
+    justify-content: center; /* Centrerar horisontellt */
+    text-align: center; /* Säkerställer att texten är centrerad */
+    position: relative;
 }
 .hero::before {
     content: '';
@@ -29,13 +34,26 @@
     color: white;
     font-size: 2rem;
  }
+ 
 .hero-content{
-    height: 83vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    height: 25vh;
     z-index: 1;
 }
-.hero-content button{
-    width: 10%;
+@media screen and (max-width:940px){
+    .hero {
+        width: 100%;
+        background-size: cover;/* Gör att hela bilden syns utan att zooma */
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    .hero-content{
+      display: flex;
+      align-items: center;
+      
+    }
+     .hero h1{
+       font-size: 1.8rem;
+       
+    }
 }
