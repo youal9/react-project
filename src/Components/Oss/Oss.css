@@ -1,0 +1,84 @@
+.oss {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.oss h1 {
+   
+    font-size: 2.5rem;
+    margin-bottom: 40px; 
+}
+.oss-content{
+    display: grid;
+ 
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    width: 100%;
+}
+.content {
+    display: flex;
+    justify-content: center;
+}
+.content img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.oss-container{
+   margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.oss-container h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.oss-container p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+@media screen and (max-width: 940px) {
+    .oss {
+        width: 100%;
+        height: auto;
+        padding: 20px; /* Lite mer padding för bättre luft */
+    }
+
+    .oss-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centrerar allt */
+        gap: 30px; /* Mer avstånd mellan sektioner */
+    }
+
+    .oss-container {
+        text-align: center; /* Centrerar texten */
+        margin: 0;
+        padding: 10px 20px; /* Ger texten lite mer luft */
+    }
+
+    .oss-container h3 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        
+    }
+
+    .oss-container p {
+        font-size: 1rem;
+        line-height: 1.6;
+        max-width: 90%; 
+    }
+
+    .content img {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+
