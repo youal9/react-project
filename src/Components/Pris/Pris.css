@@ -191,21 +191,26 @@ Button {
      
   }
   }
-  @media screen and (max-width: 940px){
-    .cards{
-        width: 100%;
-        height: auto;
-        padding: 30px;
-    }
-    .cards-containet {
-        gap: 50px; /* Lägger mellanrum mellan korten */
-       
-    }
-    .card-activ {
-     width: 300px;
-    }
-    
-    
-    
-    
+
+  /* Anpassa för iPads och mindre laptops */
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .cards-containet{
+      display: grid;
+      gap: 50px;
+      grid-template-columns: 1fr 1fr;
+      max-width: 1200px;
+      width: 90%;
+      background-color: aqua;
   }
+}
+
+/* Anpassa för små skärmar */
+@media screen and (max-width: 767px) {
+  .cards-containet{
+    display: grid;
+    gap: 40px;
+    grid-template-columns:  1fr;
+    max-width: 1200px;
+    width: 100%;
+}
+}

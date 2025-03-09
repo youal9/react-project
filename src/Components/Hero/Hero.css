@@ -11,6 +11,11 @@
     text-align: center; /* Säkerställer att texten är centrerad */
     position: relative;
 }
+.animate__animated {
+    --animate-duration: 2s;
+    --animate-delay: 1s; /* Vänta 1 sekund innan animationen startar */
+}
+
 .hero::before {
     content: '';
     position: absolute;
