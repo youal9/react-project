@@ -16,7 +16,7 @@ function Navbar() {
     
     <div className='navbar'>
         <div className="nav-container">
-            <Link to="hero"smooth={true}  duration={500} offset={-80} onClick={handleClick} className="logo">
+            <Link to="hero"smooth={true}  duration={500} offset={-80} className="logo">
                 <img src={logo} alt="" />
                 
             </Link>
