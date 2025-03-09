@@ -13,7 +13,6 @@
 }
 .oss-content{
     display: grid;
- 
     grid-template-columns: 1fr 1fr;
     max-width: 1200px;
     width: 100%;
@@ -23,7 +22,7 @@
     justify-content: center;
 }
 .content img {
-    width: 100%;
+    width: 70%;
     max-width: 500px;
     border-radius: 20px;
     object-fit: cover;
@@ -52,6 +51,23 @@
       
     }
     
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .oss {
+
+        width: 100%;
+        height: auto;
+       
+        
+    }
+    .oss-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        min-height: 50vh;
+        width: 100%;
+        
+    }
 }
 @media screen and (max-width: 940px) {
     .oss {
