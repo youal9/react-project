@@ -200,7 +200,7 @@ Button {
       grid-template-columns: 1fr 1fr;
       max-width: 1200px;
       width: 90%;
-      background-color: aqua;
+     
   }
 }
 
