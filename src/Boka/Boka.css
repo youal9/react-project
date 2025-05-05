@@ -1,0 +1,117 @@
+.boka-section {
+    width: 100%;
+    max-width: 600px;
+    margin: 6rem auto;
+    padding: 4rem 3rem;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  
+  .boka-section h2 {
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    color: #333;
+  }
+  
+  .boka-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="tel"] {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .radio-group label {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .boka-btn {
+    background-color: #2072a8;
+    color: white;
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    max-width: 200px;
+    align-self: center;
+  }
+  
+  .boka-btn:hover {
+    background-color: #164c6d;
+    transform: scale(1.05);
+  }
+  
+  /* ✅ RESPONSIVITET */
+  
+  @media screen and (max-width: 1024px) {
+    .boka-section {
+      max-width: 90%;
+      padding: 3rem 2rem;
+    }
+  
+    .boka-section h2 {
+      font-size: 1.9rem;
+    }
+  
+    .radio-group {
+      gap: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .boka-section {
+      padding: 2.5rem 1.5rem;
+    }
+  
+    .boka-section h2 {
+      font-size: 1.7rem;
+    }
+  
+    .radio-group {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+  
+    .boka-btn {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
