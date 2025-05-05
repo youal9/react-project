@@ -30,6 +30,7 @@ function Navbar() {
           <li><Link to="data" smooth={true} duration={500} offset={-80} onClick={handleClick}>Utbildning</Link></li>
           <li><Link to="pris" smooth={true} duration={500} offset={-80} onClick={handleClick}>Pris</Link></li>
           <li><Link to="kontakt" smooth={true} duration={500} offset={-80} onClick={handleClick}>Kontakt</Link></li>
+          <li><Link to="boka" smooth={true} duration={500} offset={-80} onClick={handleClick}>Boka</Link></li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
           {click ? <FaTimes className="icon" /> : <FaBars className="icon" />}
