@@ -1,7 +1,7 @@
 .hero{
     width: 100%;
     height: 100vh;
-   background-image: url(../../assets/volvo.jpg);
+   background-image: url(../../assets/bill.jpg);
     background-position: center;
     background-size: cover;
    background-repeat: no-repeat;
@@ -40,10 +40,33 @@
     font-size: 2rem;
  }
  
-.hero-content{
-    height: 25vh;
-    z-index: 1;
-}
+ .hero-content {
+    z-index: 2;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem; 
+    text-align: center;
+  }
+  
+   .btnn-hero {
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #2072a8;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .btnn-hero:hover {
+    background-color: #164c6d;
+  }
+  
+  
 @media screen and (min-width: 1440px) {
     .hero {
         width: 100%;
@@ -75,3 +98,22 @@
        
     }
 }
+@media screen and (max-width: 768px) {
+    .hero {
+      background-size: cover;
+      background-position: center center; /* Viktigt: centrera både horisontellt och vertikalt */
+      height: 100vh; /* Behåll hela skärmhöjden */
+    }
+  
+    .hero-content {
+      padding: 0 1rem;
+      text-align: center;
+    }
+  
+    .hero h1 {
+      font-size: 1.8rem;
+     
+    }
+  }
+  
+  

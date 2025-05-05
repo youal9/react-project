@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import Boka from './Boka/Boka'
 import Data from './Components/Data/Data'
 import Footer from './Components/Footer/Footer'
 import Hero from './Components/Hero/Hero'
@@ -19,6 +20,7 @@ function App() {
       <Oss/>
       <Data/>
       <Pris/>
+      <Boka/>
       <Kontakt/>
       <Footer/>
     </>
