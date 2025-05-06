@@ -28,7 +28,7 @@ function Oss() {
                   viewport={{ once: true }} // Kör animationen bara en gång
                 >  
 
-                <img src={pov} alt="Nordic Driving Academy" />
+                <img src={pov} alt="Nordic Driving Academy"  className='img-one'/>
                 </motion.div>
             </div>
             <div className="oss-container">
@@ -70,7 +70,7 @@ function Oss() {
                  transition={{ duration: 2.5, ease: 'easeOut' }} 
                  viewport={{ once: true }} // Kör animationen bara en gång
                 >
-                <img src={car} alt="Nordic Driving Academy" />
+                <img src={car} alt="Nordic Driving Academy" className='img-tv'/>
                 </motion.div>
             </div>
             
